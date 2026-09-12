@@ -8,5 +8,11 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.scss'
 })
 export class App {
-  protected readonly title = signal('angular-practice');
+  protected readonly title = signal('Angular-Practice');
+  name="Azim"
+  age= 27
+  city="dhaka"
+  updateName(){
+    this.name="AZim Uddin"
+  }
 }
