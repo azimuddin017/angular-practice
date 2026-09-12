@@ -10,9 +10,8 @@ import { RouterOutlet } from '@angular/router';
 export class App {
   protected readonly title = signal('Angular-Practice');
   name="Azim"
-  age= 27
-  city="dhaka"
-  updateName(){
-    this.name="AZim Uddin"
+  email="azim.shaheb@gmail.com"
+  getName(a:number,b:number){
+    return a+b
   }
 }
